@@ -17,14 +17,18 @@ pkg> dev .
 ```
 julia> using JGCM
 ```
-(4) If it's necessary, one can delete the package
+(4) If it's necessary, one can delete the pre-installed package
 ```
 julia> ]
 pkg> rm JGCM 
 ```
 
 # Run Experiments
-Before you run the model for test, please make sure you're at `/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/exp/HSt42/`
+Before you run the model for test, please make sure you're at 
+```
+`/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/exp/HSt42/`
+```
+Test run 
 ```
 julia For_test_Run_HS.jl
 ```
