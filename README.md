@@ -1,32 +1,31 @@
 # Moist_Dycore_for_zenodo
-Strong recommand visit:
+Associated Ref:
 https://github.com/CliMA/IdealizedSpectralGCM.jl/tree/master
 
 ## Install JGCM
-first install Julia, then 
-please make sure your dirtionary is at 
+(1) Install Julia under the path 
 `/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/`
-And, type
+(2) Switch to developer mode
 ```
 julia> ]
 pkg> dev .
 ```
-Then load model
+(3) Load model
 ```
 julia> using JGCM
 ```
-When necessary, yoGCMu can delete the package
+(4) If it's necessary, one can delete the package
 ```
 julia> ]
 pkg> rm JGCM 
 ```
 
-# Run Moist Dycore
-Before you run the model for test, please make sure your dirtionary is at `/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/exp/HSt42/`
+# Run Experiments
+Before you run the model for test, please make sure you're at `/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/exp/HSt42/`
 ```
 julia For_test_Run_HS.jl
 ```
-Then, if you want to run long period experiment
+For extended-period experiment
 ```
 sh PR0_long_run.sh
 ```
