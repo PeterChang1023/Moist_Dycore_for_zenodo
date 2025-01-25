@@ -3,8 +3,11 @@ Associated Ref:
 https://github.com/CliMA/IdealizedSpectralGCM.jl/tree/master
 
 ## Install JGCM
-(1) Install Julia under the path 
+(1) Install Julia under the path
+```
 `/Moist_Dycore_for_zenodo/IdealizeSpetral.jl/`
+```
+
 (2) Switch to developer mode
 ```
 julia> ]
